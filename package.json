@@ -1,0 +1,33 @@
+{
+  "name": "purpura",
+  "displayName": "purpura",
+  "description": "A Visual Studio Code theme for purple lovers",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceinvadev/purpura-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.51.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Purple",
+    "Purple Theme",
+    "Morado",
+    "Low Contrast"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purpura",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purpura-color-theme.json"
+      }
+    ]
+  }
+}
