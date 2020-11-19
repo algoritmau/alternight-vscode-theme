@@ -1,5 +1,5 @@
 {
-  "name": "Simulacra and Simulation",
+  "name": "Purpura",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -8,11 +8,15 @@
     "titleBar.border": "#010115",
     "titleBar.inactiveBackground": "#01012380",
     "titleBar.inactiveForeground": "#68689e80",
+
+    // Activity bar
     "activityBar.background": "#0b0b2c",
     "activityBar.foreground": "#9292e4",
     "activityBar.inactiveForeground": "#9292e480",
     "activityBarBadge.background": "#8058A5",
     "activityBarBadge.foreground": "#EDE8F3",
+
+    // Sidebar
     "sideBar.background": "#0b0b2c",
     "sideBar.foreground": "#9292e4",
     "sideBarTitle.foreground": "#5f5faf",
@@ -20,30 +24,45 @@
     "sideBarSectionHeader.foreground": "#9292e488",
     "sideBarSectionHeader.border": "#9292e416",
     "sideBar.border": "#9292e408",
+
     // Tabs
     "editorGroupHeader.tabsBackground": "#010123",
     "editorGroupHeader.tabsBorder": "#2a2a46",
     "tab.activeBackground": "#010123",
-    "tab.activeForeground": "#EB4C6C",
-    "tab.activeBorder": "#EB4C6C",
-    "tab.inactiveBackground": "#1f1f3d",
-    "tab.inactiveForeground": "#8383C080",
-    "tab.hoverBackground": "#1b1b36",
-    "tab.hoverForeground": "#7F7FBF80",
+    "tab.activeForeground": "#6262FB",
+    "tab.activeBorder": "#6262FB",
+    "tab.inactiveBackground": "#1b1b31",
+    "tab.inactiveForeground": "#7F7FB8",
+    "tab.border": "#ffffff16",
+    "tab.hoverBackground": "#010123",
+    "tab.hoverForeground": "#6262FB",
+
+    // Editor
     "editor.background": "#010123",
     "editor.foreground": "#68689e",
     "editor.selectionBackground": "#EB4C6C64",
     "editorCursor.foreground": "#ff0",
     "editorLineNumber.foreground": "#ffffff20",
     "editor.lineHighlightBackground": "#8f8ffc20",
+
+    // Status bar
     "statusBar.background": "#8F8FFC",
     "statusBar.foreground": "#010123",
     "statusBarItem.hoverBackground": "#01012324",
+
     // Integrated Terminal
     "terminal.foreground": "#68689e",
     "terminal.selectionBackground": "#8f8ffc20",
     "terminalCursor.foreground": "#ff0",
-    "terminal.background": "#010123"
+    "terminal.background": "#010123",
+
+    // Menu
+    "menu.background": "#0b0b2c",
+    "menu.foreground": "#9292e4",
+    "menu.border": "#9292e4",
+    "menu.selectionBackground": "#ffffff40",
+    "menu.separatorBackground": "#9292e464",
+    "window.activeBorder": "#9292e424"
   },
   "tokenColors": [
     {
@@ -64,7 +83,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#EB4C6C"
       }
     },
     {
@@ -183,7 +202,7 @@
         "entity.name",
         "support.type",
         "support.class",
-        "support.orther.namespace.use.php",
+        "support.other.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
