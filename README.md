@@ -1,29 +1,26 @@
 # AlterNight 🌠
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/spaceinvadev.alternight.svg)](https://aka.ms/purpura)
-[![Downloads](https://img.shields.io/vscode-marketplace/r/spaceinvadev.alternight.svg)](https://aka.ms/spaceinvadev)
-
 A Visual Studio Code theme for those who code at night
 
 ## AlterNight
 
-![Home Screen](/img/preview-sidebar.png)
+![Home Screen](preview-sidebar.png)
 
-##### JavaScript
+#### JavaScript
 
-![Preview JavaScript](/img/preview-javascript.png)
+![Preview JavaScript](preview-javascript.png)
 
-##### HTML
+#### HTML
 
-![Preview HTML](img/preview-html.png)
+![Preview HTML](preview-html.png)
 
-##### CSS
+#### CSS
 
-![Preview CSS](img/preview-css.png)
+![Preview CSS](preview-css.png)
 
-##### JSON
+#### JSON
 
-![Preview JSON](img/preview-json.png)
+![Preview JSON](preview-json.png)
 
 ## Installation
 
@@ -32,7 +29,7 @@ A Visual Studio Code theme for those who code at night
 3. Click `Install`
 4. When prompted, select `AlterNight Theme` as Color Theme
 
-> In case of not being prompted to select a Color Theme upon installing, go to the menu bar and sekect: `Code > Preferences > Color Theme > AlterNight Theme`
+> In case of not being prompted to select a Color Theme upon installing, go to the menu bar and select: `Code > Preferences > Color Theme > AlterNight Theme`
 
 ### Recommended settings for a better experience
 
