@@ -4,7 +4,7 @@ A Visual Studio Code theme for those who code at night
 
 ## AlterNight
 
-![Home Screen](http://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-sidebar.png)
+![Home Screen](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-sidebar.png)
 
 ### JavaScript
 
