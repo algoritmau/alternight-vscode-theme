@@ -4,23 +4,23 @@ A Visual Studio Code theme for those who code at night
 
 ## AlterNight
 
-![Home Screen](preview-sidebar.png)
+![Home Screen](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-sidebar.png)
 
-#### JavaScript
+### JavaScript
 
-![Preview JavaScript](preview-javascript.png)
+![Preview JavaScript](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-javascript.png)
 
-#### HTML
+### HTML
 
-![Preview HTML](preview-html.png)
+![Preview HTML](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-html.png)
 
-#### CSS
+### CSS
 
-![Preview CSS](preview-css.png)
+![Preview CSS](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-css.png)
 
-#### JSON
+### JSON
 
-![Preview JSON](preview-json.png)
+![Preview JSON](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-json.png)
 
 ## Installation
 
