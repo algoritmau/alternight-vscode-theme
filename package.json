@@ -1,8 +1,8 @@
 {
-  "name": "purpura",
-  "displayName": "purpura",
-  "description": "A Visual Studio Code theme for purple lovers",
-  "version": "0.0.1",
+  "name": "alternight",
+  "displayName": "AlterNight",
+  "description": "A Visual Studio Code theme for those who code at night",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/spaceinvadev/purpura-vscode-theme"
@@ -19,12 +19,17 @@
     "Purple",
     "Purple Theme",
     "Morado",
-    "Low Contrast"
+    "Indie",
+    "Retro",
+    "80s",
+    "Neon",
+    "Alternative",
+    "Night"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Purpura",
+        "label": "AlterNight",
         "uiTheme": "vs-dark",
         "path": "./themes/purpura-color-theme.json"
       }
