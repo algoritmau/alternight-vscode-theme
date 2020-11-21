@@ -4,23 +4,23 @@ A Visual Studio Code theme for those who code at night
 
 ## AlterNight
 
-![Home Screen](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-sidebar.png)
+![Home Screen](preview-sidebar.png)
 
 ### JavaScript
 
-![Preview JavaScript](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-javascript.png)
+![Preview JavaScript](preview-javascript.png)
 
 ### HTML
 
-![Preview HTML](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-html.png)
+![Preview HTML](preview-html.png)
 
 ### CSS
 
-![Preview CSS](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-css.png)
+![Preview CSS](preview-css.png)
 
 ### JSON
 
-![Preview JSON](https://rawcdn.githack.com/spaceinvadev/alternight-vscode-theme/e67c5de6cca3ef7a4895e4320d54b1fa6ff74e9d/preview-json.png)
+![Preview JSON](preview-json.png)
 
 ## Installation
 
@@ -36,16 +36,59 @@ A Visual Studio Code theme for those who code at night
 The font in the preview images is **IBM Plex Mono**, which can be downloaded for free from [Google Fonts](https://fonts.google.com/). I've added some personal typography-related settings, which you can achieve by adding the following to your `settings.json` file.
 
 ```json
+// Controls the font family
 "editor.fontFamily": "'IBM Plex Mono', monospace",
+// Controls the font size
 "editor.fontSize": 16.5,
+// Controls the font weight
 "editor.fontWeight": "400",
-"editor.fontLigatures": true,
+// Controls the line height. If you prefer to compute the lineHeight from the fontSize, use 0
 "editor.lineHeight": 38,
+// Enables font ligatures
+"editor.fontLigatures": true,
 ```
 
 ### Customize/Override theme colors
 
 You can customize/override the AlterNight theme colors by adding the following theme-specific configuration to your settings file. For more advanced customization, refer to the corresponding [VS Code Docs](https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme).
+
+#### Example of basic customization
+
+```json
+"editor.tokenColorCustomizations": {
+    "[AlterNight]": {
+        "comments": "#229977"
+    }
+},
+```
+
+#### Example of advanced customization
+
+```json
+"editor.tokenColorCustomizations": {
+    "[AlterNight YOUR_REMIX]": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.definition.comment",
+                    "comment.block",
+                    "comment.line",
+                    "comment.block.documentation"
+                ],
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            }
+        ]
+    },
+},
+
+"workbench.colorCustomizations": {
+	"[AlterNight YOUR_REMIX]": {
+		"sideBar.background": "#FFFF00",
+	}
+},
+```
 
 ### Contributions, Issues & Suggestions
 

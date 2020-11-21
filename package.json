@@ -2,12 +2,12 @@
   "name": "alternight",
   "displayName": "AlterNight",
   "description": "A Visual Studio Code theme for those who code at night",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "spaceinvadev",
   "author": {
     "name": "Mauricio Paternina"
   },
-  "icon": "img/alternight-logo.png",
+  "icon": "alternight-logo.png",
   "galleryBanner": {
     "color": "#010123",
     "theme": "dark"
