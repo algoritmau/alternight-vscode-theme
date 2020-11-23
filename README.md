@@ -1,5 +1,9 @@
 # AlterNight 🌠
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/spaceinvadev.alternight.svg)](https://aka.ms/nightowl)
+
+[![Downloads](https://img.shields.io/vscode-marketplace/r/spaceinvadev.alternight.svg)](https://aka.ms/nightowl)
+
 A Visual Studio Code theme for those who code at night
 
 ## AlterNight
@@ -24,12 +28,15 @@ A Visual Studio Code theme for those who code at night
 
 ## Installation
 
-1. Open the `Extensions` menu on the sidebar
-2. Search for `AlterNight Theme`
-3. Click `Install`
-4. When prompted, select `AlterNight Theme` as Color Theme
+1. Open the **Extensions** sidebar panel in VS Code. `View → Extensions`
 
-> In case of not being prompted to select a Color Theme upon installing, go to the menu bar and select: `Code > Preferences > Color Theme > AlterNight Theme`
+2. Search for `AlterNight`
+
+3. Click `Install`
+
+4. When prompted, select `AlterNight` as the color theme
+
+> In case of not being prompted to select a Color Theme upon installing, go to the menu bar and select: `Code (File, on Windows) > Preferences > Color Theme > AlterNight`. Alternatively, you can use the shortcut `⌘/Ctrl + K > ⌘/Ctrl + T` and select `AlterNight`.
 
 ### Recommended settings for a better experience
 
@@ -38,13 +45,20 @@ The font in the preview images is **IBM Plex Mono**, which can be downloaded for
 ```json
 // Controls the font family
 "editor.fontFamily": "'IBM Plex Mono', monospace",
-// Controls the font size
+
+// Controls the font size in pixels
 "editor.fontSize": 16.5,
+
+// Controls letter spacing in pixels
+"editor.letterSpacing": -0.56,
+
 // Controls the font weight
 "editor.fontWeight": "400",
-// Controls the line height. If you prefer to compute the lineHeight from the fontSize, use 0
+
+// Controls the line height. Use 0 to compute the line height from the font size
 "editor.lineHeight": 38,
-// Enables font ligatures
+
+// Enables/Disables font ligatures
 "editor.fontLigatures": true,
 ```
 
@@ -92,8 +106,8 @@ You can customize/override the AlterNight theme colors by adding the following t
 
 ### Contributions, Issues & Suggestions
 
-Any feedback, suggestion, or issue reporting is welcome. Feel free to submit your concern via the [Repo's GitHub Issues](https://github.com/spaceinvadev/alternight-vscode-theme/issues) page, provide feedback or request a feature by submitting a PR.
+Any feedback, issue reporting or suggestion is welcome. Feel free to submit your concern via the [Repo's GitHub Issues](https://github.com/spaceinvadev/alternight-vscode-theme/issues) page, provide feedback or request a feature by submitting a PR.
 
 ### Changelog
 
-All relevant changes for each version are outlined in the changelog. Consider updating and checking the changelog before filing any issues, as they may have already been addressed.
+All notable changes to this project are documented in the [changelog](CHANGELOG.md). Consider checking the changelog prior to filing any issues as they may have already been addressed.
