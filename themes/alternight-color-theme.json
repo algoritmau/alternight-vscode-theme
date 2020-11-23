@@ -235,7 +235,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#ffffff32"
+        "foreground": "#f5f539"
       }
     },
     {
@@ -293,10 +293,18 @@
       }
     },
     {
+      "name": "CSS Element Selector",
+      "scope": ["entity.name.tag.css"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ffbd42"
+      }
+    },
+    {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#ffbd42"
       }
     },
     {
@@ -304,6 +312,16 @@
       "scope": ["source.sass keyword.control"],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "CSS At Rules",
+      "scope": [
+        "keyword.control.at-rule.media.scss",
+        "meta.at-rule.media.scss"
+      ],
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
