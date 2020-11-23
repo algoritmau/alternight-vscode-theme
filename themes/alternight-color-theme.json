@@ -42,7 +42,7 @@
     "editor.foreground": "#68689e",
     "editor.selectionBackground": "#EB4C6C64",
     "editorCursor.foreground": "#ff0",
-    "editorLineNumber.foreground": "#ffffff20",
+    "editorLineNumber.foreground": "#ffffff36",
     "editor.lineHighlightBackground": "#8f8ffc20",
 
     // Status bar
@@ -78,7 +78,6 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "fontStyle": "",
         "foreground": "#ffffff40",
         "fontStyle": "italic"
       }
