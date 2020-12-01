@@ -1,7 +1,7 @@
 # AlterNight 🌠
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/spaceinvadev.alternight.svg)](https://aka.ms/nightowl)
-[![Downloads](https://img.shields.io/vscode-marketplace/r/spaceinvadev.alternight.svg)](https://aka.ms/nightowl)
+[![Version](https://vsmarketplacebadge.apphb.com/version/spaceinvadev.alternight.svg)](https://marketplace.visualstudio.com/items?itemName=spaceinvadev.alternight)
+[![Downloads](https://img.shields.io/vscode-marketplace/r/spaceinvadev.alternight.svg)](https://marketplace.visualstudio.com/items?itemName=spaceinvadev.alternight)
 
 A Visual Studio Code theme for those who code at night
 
