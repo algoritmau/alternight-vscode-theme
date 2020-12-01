@@ -39,23 +39,23 @@ A Visual Studio Code theme for those who code at night
 
 ### Recommended settings for a better experience
 
-The font in the preview images is **IBM Plex Mono**, which can be downloaded for free from [Google Fonts](https://fonts.google.com/). I've added some personal typography-related settings, which you can achieve by adding the following to your `settings.json` file.
+The typeface I used (as shown on the sample images) is **MonoLisa** — a nice coding font I really like. You can get it at [MonoLisa](https://monolisa.dev/). I've added some personal typography-related settings, which you can achieve by adding the following to your `settings.json` file.
 
 ```json
 // Controls the font family
-"editor.fontFamily": "'IBM Plex Mono', monospace",
+"editor.fontFamily": "'MonoLisa', monospace",
 
 // Controls the font size in pixels
-"editor.fontSize": 16.5,
+"editor.fontSize": 17,
 
 // Controls letter spacing in pixels
-"editor.letterSpacing": -0.56,
+"editor.letterSpacing": -0.4,
 
 // Controls the font weight
-"editor.fontWeight": "400",
+"editor.fontWeight": "300",
 
 // Controls the line height. Use 0 to compute the line height from the font size
-"editor.lineHeight": 38,
+"editor.lineHeight": 40,
 
 // Enables/Disables font ligatures
 "editor.fontLigatures": true,
