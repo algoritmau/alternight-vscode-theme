@@ -2,10 +2,11 @@
   "name": "alternight",
   "displayName": "AlterNight",
   "description": "A Visual Studio Code theme for those who code at night",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "publisher": "spaceinvadev",
   "author": {
-    "name": "Mauricio Paternina"
+    "name": "Mauricio Paternina",
+    "url": "https://spaceinva.dev"
   },
   "icon": "alternight-logo.png",
   "galleryBanner": {
@@ -37,7 +38,11 @@
     "Neon",
     "Alternative",
     "Night",
-    "Cobalt"
+    "Cobalt",
+    "Ocean",
+    "Ocean Next",
+    "React",
+    "React Theme"
   ],
   "contributes": {
     "themes": [
