@@ -3,6 +3,10 @@
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
+    // Color Palette
+    // Cool Blue: #6a7cdc
+    // Gray: #7a8491
+
     "titleBar.activeBackground": "#1f172b",
     "titleBar.activeForeground": "#9077b6",
     "titleBar.inactiveBackground": "#1f172b80",
@@ -13,7 +17,7 @@
     "activityBar.foreground": "#bcadd3",
     "activityBar.activeBorder": "#bcadd3",
     "activityBar.inactiveForeground": "#9077b680",
-    "activityBarBadge.background": "#d7cee5",
+    "activityBarBadge.background": "#e29fa4",
     "activityBarBadge.foreground": "#1f172b",
 
     // Sidebar
@@ -36,20 +40,20 @@
 
     // Editor
     "editor.background": "#1f172b",
-    "editor.foreground": "#e4e6e9",
-    "editor.selectionBackground": "#10101099",
+    "editor.foreground": "#d5d5d5",
+    "editor.selectionBackground": "#ffff0048",
     "editorCursor.foreground": "#ff0",
     "editorLineNumber.foreground": "#9077b688",
     "editor.lineHighlightBackground": "#00000064",
 
     // Status bar
-    "statusBar.background": "#655a73",
-    "statusBar.foreground": "#dbd7e0",
+    "statusBar.background": "#1f172b",
+    "statusBar.foreground": "#9077b6",
     "statusBarItem.hoverBackground": "#14141472",
 
     // Integrated Terminal
     "terminal.background": "#1f172b",
-    "terminal.foreground": "#e4e6e9",
+    "terminal.foreground": "#d5d5d5",
     "terminal.selectionBackground": "#10101099",
     "terminalCursor.foreground": "#ff0",
 
@@ -241,10 +245,44 @@
       }
     },
     {
-      "name": "CSS @import",
-      "scope": ["keyword.control.at-rule.import.css"],
+      "name": "CSS at-rules",
+      "scope": [
+        "keyword.control.at-rule.css",
+        "keyword.control.at-rule.use",
+        "keyword.control.at-rule.css.sass",
+        "keyword.control.at-rule.css.scss",
+        "support.function.name.sass.library"
+      ],
       "settings": {
-        "foreground": "#E3CC8D"
+        "foreground": "#E3CC8D",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "CSS/sass/scss functions",
+      "scope": ["support.function.name.sass.library"],
+      "settings": {
+        "foreground": "#6A7CDC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS Variable",
+      "scope": ["variable.css"],
+      "settings": {
+        "foreground": "#7A8491",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS String",
+      "scope": [
+        "constant.character.css",
+        "constant.character.css.sass",
+        "constant.character.css.scss"
+      ],
+      "settings": {
+        "foreground": "#2ba769"
       }
     },
     {
@@ -311,6 +349,7 @@
         "foreground": "#35d4e9"
       }
     },
+    // JSX Styles
     {
       "name": "JSX Tag Name",
       "scope": ["entity.name.tag.js"],
@@ -326,6 +365,18 @@
       ],
       "settings": {
         "foreground": "#AC66C9"
+      }
+    },
+    {
+      "name": "Import JS",
+      "scope": [
+        "keyword.control.import.js",
+        "keyword.control.from.js",
+        "keyword.control.export.js",
+        "keyword.control.default.js"
+      ],
+      "settings": {
+        "foreground": "#c1c1c1"
       }
     },
     {
@@ -529,6 +580,7 @@
         "foreground": "#C3E88D"
       }
     },
+    // Markdown Styles
     {
       "name": "Markdown - Plain",
       "scope": [
@@ -536,7 +588,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#d5d5d5"
       }
     },
     {
