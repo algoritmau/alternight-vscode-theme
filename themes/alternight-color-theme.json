@@ -92,13 +92,6 @@
       }
     },
     {
-      "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
-      "settings": {
-        "foreground": "#d4785d"
-      }
-    },
-    {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
@@ -234,7 +227,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#f0bb6b"
       }
     },
     {
@@ -349,12 +342,72 @@
         "foreground": "#35d4e9"
       }
     },
+    {
+      "name": "Object Keys Keyword JS",
+      "scope": [
+        "meta.object-literal.key.js.jsx",
+        "meta.object.member.js.jsx",
+        "meta.objectliteral.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#7a8491"
+      }
+    },
     // JSX Styles
     {
       "name": "JSX Tag Name",
       "scope": ["entity.name.tag.js"],
       "settings": {
         "foreground": "#D4785D"
+      }
+    },
+    {
+      "name": "Object Properties",
+      "scope": ["variable.other.property.js", "variable.other.property.js.jsx"],
+      "settings": {
+        "foreground": "#4a68bb"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.other.readwrite.alias.js",
+        "variable.other.readwrite.alias.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#568aec"
+      }
+    },
+    {
+      "name": "Return Keyword",
+      "scope": ["keyword.control.flow.js", "keyword.control.flow.js.jsx"],
+      "settings": {
+        "foreground": "#e27171",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Export, Default Keywords",
+      "scope": [
+        "keyword.control.export.js",
+        "keyword.control.export.js.jsx",
+        "keyword.control.default.js",
+        "keyword.control.default.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#a7a7a7"
+      }
+    },
+    {
+      "name": "JSX Tags",
+      "scope": [
+        "entity.name.tag.js",
+        "meta.tag.js",
+        "entity.name.tag.js.jsx",
+        "meta.tag.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#a56e55"
       }
     },
     {
@@ -434,6 +487,23 @@
       ],
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "sass variables",
+      "scope": ["sass.script.maps", "scss.script.maps"],
+      "settings": {
+        "foreground": "#568AEC"
+      }
+    },
+    {
+      "name": "sass function interpolation",
+      "scope": [
+        "support.function.interpolation.sass",
+        "support.function.interpolation.scss"
+      ],
+      "settings": {
+        "foreground": "#7a8491"
       }
     },
     {
