@@ -9,6 +9,10 @@ A Visual Studio Code theme for those who code at night
 
 ![Home Screen](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-sidebar.png)
 
+### ReactJS
+
+![Preview JavaScript](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-react.png)
+
 ### JavaScript
 
 ![Preview JavaScript](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-javascript.png)
@@ -16,6 +20,10 @@ A Visual Studio Code theme for those who code at night
 ### HTML
 
 ![Preview HTML](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-html.png)
+
+### Sass
+
+![Preview CSS](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-sass.png)
 
 ### CSS
 
@@ -49,7 +57,7 @@ The typeface I used (as shown on the sample images) is **MonoLisa** — a nice c
 "editor.fontSize": 17,
 
 // Controls letter spacing in pixels
-"editor.letterSpacing": -0.4,
+"editor.letterSpacing": -1,
 
 // Controls the font weight
 "editor.fontWeight": "300",
@@ -69,9 +77,9 @@ You can customize/override the AlterNight theme colors by adding the following t
 
 ```json
 "editor.tokenColorCustomizations": {
-    "[AlterNight]": {
-        "comments": "#229977"
-    }
+  "[AlterNight]": {
+      "comments": "#229977"
+  }
 },
 ```
 
@@ -79,27 +87,27 @@ You can customize/override the AlterNight theme colors by adding the following t
 
 ```json
 "editor.tokenColorCustomizations": {
-    "[AlterNight YOUR_REMIX]": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "punctuation.definition.comment",
-                    "comment.block",
-                    "comment.line",
-                    "comment.block.documentation"
-                ],
-                "settings": {
-                    "foreground": "#FFFF00"
-                }
-            }
-        ]
-    },
+  "[AlterNight YOUR_REMIX]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.definition.comment",
+          "comment.block",
+          "comment.line",
+          "comment.block.documentation"
+        ],
+        "settings": {
+          "foreground": "#FFFF00"
+        }
+      }
+    ]
+  },
 },
 
 "workbench.colorCustomizations": {
-	"[AlterNight YOUR_REMIX]": {
-		"sideBar.background": "#FFFF00",
-	}
+  "[AlterNight YOUR_REMIX]": {
+    "sideBar.background": "#FFFF00",
+  }
 },
 ```
 
