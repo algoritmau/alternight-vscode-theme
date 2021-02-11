@@ -40,13 +40,11 @@
 
     // Tabs
     "editorGroupHeader.tabsBackground": "#1f172b",
-    "editorGroupHeader.tabsBorder": "#e0e0e0",
-    "tab.activeBackground": "#e29fa4",
-    "tab.activeForeground": "#1f172b",
-    "tab.activeBorder": "#e29fa4",
+    "tab.activeBorderTop": "#f78c6c",
+    "tab.activeForeground": "#f78c6c",
     "tab.inactiveBackground": "#1b1b31",
     "tab.inactiveForeground": "#7F7FB8",
-    "tab.hoverBackground": "#cf5f67",
+    "tab.hoverBackground": "#f78c6c",
     "tab.hoverForeground": "#1f172b",
 
     // Status bar

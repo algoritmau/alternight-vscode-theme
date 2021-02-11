@@ -7,7 +7,7 @@ A Visual Studio Code theme for those who code at night
 
 ## AlterNight
 
-![Home Screen](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-sidebar.png)
+![Home Screen](https://raw.githubusercontent.com/spaceinvadev/alternight-vscode-theme/main/preview-sidebar-menu.png)
 
 ### ReactJS
 
@@ -57,10 +57,10 @@ The typeface I used (as shown on the sample images) is **MonoLisa** — a nice c
 "editor.fontSize": 17,
 
 // Controls letter spacing in pixels
-"editor.letterSpacing": -1,
+"editor.letterSpacing": -1.4,
 
 // Controls the font weight
-"editor.fontWeight": "300",
+"editor.fontWeight": "400",
 
 // Controls the line height. Use 0 to compute the line height from the font size
 "editor.lineHeight": 40,
@@ -87,7 +87,7 @@ You can customize/override the AlterNight theme colors by adding the following t
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[AlterNight YOUR_REMIX]": {
+  "[Your_Custom_AlterNight]": {
     "textMateRules": [
       {
         "scope": [
@@ -97,7 +97,7 @@ You can customize/override the AlterNight theme colors by adding the following t
           "comment.block.documentation"
         ],
         "settings": {
-          "foreground": "#FFFF00"
+          "foreground": "#ffff00"
         }
       }
     ]
@@ -105,8 +105,8 @@ You can customize/override the AlterNight theme colors by adding the following t
 },
 
 "workbench.colorCustomizations": {
-  "[AlterNight YOUR_REMIX]": {
-    "sideBar.background": "#FFFF00",
+  "[Your_Custom_AlterNight]": {
+    "sideBar.background": "#ffff00",
   }
 },
 ```
