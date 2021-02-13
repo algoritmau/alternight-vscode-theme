@@ -51,6 +51,8 @@
     "statusBar.background": "#1f172b",
     "statusBar.foreground": "#9077b6",
     "statusBarItem.hoverBackground": "#14141472",
+    "statusBar.debuggingBackground": "#e29fa4",
+    "statusBar.debuggingForeground": "#1f172b",
 
     // Integrated Terminal
     "terminal.background": "#1f172b",
