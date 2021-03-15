@@ -100,7 +100,15 @@
         "punctuation.definition.string.template.end.js",
         "punctuation.definition.string.template.end.jsx",
         "punctuation.definition.string.template.end.ts",
-        "punctuation.definition.string.template.end.tsx",
+        "punctuation.definition.string.template.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#2ba769"
+      }
+    },
+    {
+      "name": "Template Expression",
+      "scope": [
         "punctuation.definition.template-expression.begin.js",
         "punctuation.definition.template-expression.begin.jsx",
         "punctuation.definition.template-expression.begin.ts",
@@ -111,7 +119,7 @@
         "punctuation.definition.template-expression.end.tsx"
       ],
       "settings": {
-        "foreground": "#2ba769"
+        "foreground": "#b5bcff"
       }
     },
     {
@@ -424,7 +432,7 @@
       "name": "Variable Parameters",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#aff0f0"
+        "foreground": "#8ebcd6"
       }
     },
     {
