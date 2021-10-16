@@ -2,7 +2,7 @@
   "name": "alternight",
   "displayName": "AlterNight",
   "description": "A Visual Studio Code theme for those who code at night",
-  "version": "2.6.1",
+  "version": "3.0.0",
   "publisher": "spaceinvadev",
   "author": {
     "name": "Mauricio Paternina",
@@ -43,7 +43,8 @@
     "Ocean",
     "Ocean Next",
     "React",
-    "React Theme"
+    "React Theme",
+    "italic"
   ],
   "contributes": {
     "themes": [
@@ -51,6 +52,11 @@
         "label": "AlterNight",
         "uiTheme": "vs-dark",
         "path": "./themes/alternight-color-theme.json"
+      },
+      {
+        "label": "AlterNight (No Italics)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alternight-color-theme-no-italics.json"
       }
     ]
   }
